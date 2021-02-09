@@ -1,0 +1,24 @@
+.flex-example {
+  width: 40rem;
+  background-color: #dedede;
+  margin: 0 auto;
+  height: 30rem;
+  label {
+    height: 4rem;
+    display: flex;
+    span {
+      background-color: blue;
+      height: 2rem;
+      flex-basis: 0;
+      flex-grow: 1;
+      padding: 0 4rem;
+      display: block;
+    }
+    input {
+      flex-grow: 10;
+      padding: 0 0;
+      flex-basis: auto;
+      display: block;
+    }
+  }
+}
